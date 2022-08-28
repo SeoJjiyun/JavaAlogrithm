@@ -43,7 +43,7 @@ public class heapSort {
 				child++;
 			}
 			
-			if(temp > heapArr[child]) break;
+			if(temp < heapArr[child]) break;
 			
 			heapArr[parent] = heapArr[child];
 			parent = child;
